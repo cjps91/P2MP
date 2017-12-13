@@ -18,6 +18,10 @@ public class Fecha {
         this.mes=m;
         this.anio=a;
     } 
-    
+    @Override
+    public String toString()
+    {
+        return "" + this.dia + "/" + this.mes + "/" +this.anio;
+    }
     public int getDia() {return dia;}
 }
