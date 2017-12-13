@@ -10,5 +10,14 @@ package libClases;
  * @author carlos
  */
 public class Fecha {
+    private int dia, mes, anio;
     
+    public Fecha(int d, int m, int a)
+    {
+        this.dia=d;
+        this.mes=m;
+        this.anio=a;
+    } 
+    
+    public int getDia() {return dia;}
 }
