@@ -10,7 +10,7 @@ package libClases;
  * @author carlos
  */
 public class Fecha {
-    private int dia, mes, anio;
+    private final int dia, mes, anio;
     
     public Fecha(int d, int m, int a)
     {
