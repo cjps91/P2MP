@@ -37,6 +37,39 @@ public class Cliente {
         n=n+1;
         fechaAlta=FechaAltDef;
     }
+
+    public static Fecha getFechaAltDef() {
+        return FechaAltDef;
+    }
+
+    public static void setFechaAltDef(Fecha FechaAltDef) {
+        Cliente.FechaAltDef = FechaAltDef;
+    }
+    
+    public String getNif() {
+        return nif;
+    }
+
+    public int getCodCliente() {
+        return codCliente;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Fecha getFechaNac() {
+        return fechaNac;
+    }
+
+    public Fecha getFechaAlta() {
+        return fechaAlta;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+   
     @Override
     public String toString()
     {
